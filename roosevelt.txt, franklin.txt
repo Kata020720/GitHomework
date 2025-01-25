@@ -7,3 +7,11 @@ git status
 git add roosevelt.txt franklin.txt
 git status
 git commit -m "Add roosevelt.txt franklin.txt with initial content"
+git init 
+Modifying the franklin.txt file ("Well done is better than well said. ) - Benjamin Franklin" > franklin.txt
+git status 
+git add franklin.txt
+git status 
+git commit -m "Update franklin.txt with new quote"
+git log --oneline
+git checkout <> franklin.txt
