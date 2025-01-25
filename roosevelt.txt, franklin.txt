@@ -1,0 +1,9 @@
+ mkdir GitHomework  
+cd GitHomework
+git init
+echo "The only thing we have to fear is fear itself. - Franklin D. Roosevelt" > roosevelt.txt
+echo "An investment in knowledge pays the best interest. - Benjamin Franklin" > franklin.txt
+git status
+git add roosevelt.txt franklin.txt
+git status
+git commit -m "Add roosevelt.txt franklin.txt with initial content"
