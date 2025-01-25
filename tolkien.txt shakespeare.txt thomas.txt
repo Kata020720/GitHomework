@@ -1,0 +1,12 @@
+cd GitHomework
+echo "All that is gold does not glitter, Not all those who wander are lost; The old that is strong does not wither, Deep roots are not reached by the frost." - J.R.R. Tolkien, The Fellowship of the Ring > tolkien.txt
+echo "It is not in the stars to hold our destiny but in ourselves." - William Shakespeare > shakespeare.txt
+echo "Life always offers you a second chance. It is called tomorrow." – Dylan Thomas > thomas.txt
+git status tolkien.txt shakespeare.txt thomas.txt
+git add  tolkien.txt shakespeare.txt thomas.txt
+git status tolkien.txt shakespeare.txt thomas.txt
+git commit -m "Add tolkien.txt, shakespeare.txt, and thomas.txt with quotes"
+git push origin main
+git remote add origin https://github.com/Kata020720?tab=repositories
+git branch -M main
+git push -u origin main
